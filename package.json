@@ -1,0 +1,20 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "A classic REST API",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "devStart": "nodemon api.js"
+  },
+  "author": "Damien Weber",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
